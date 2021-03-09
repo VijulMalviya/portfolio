@@ -13,7 +13,10 @@ a{
 html,body{
     height: 100%;
     width: 100%;
+    scroll-behavior: smooth;
+
 }
+
 .nav{
     background-color: black;
     height: 100vh;
@@ -145,7 +148,7 @@ nav img{
     background-color: black;
     height: 2px;
 }
-.skills h5{
+.projects .skills h5{
     font-weight: bold;
     
 }

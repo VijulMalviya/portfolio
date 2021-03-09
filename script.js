@@ -18,7 +18,7 @@ var nav_outer = document.querySelector('nav');
 // })
 
 menu.addEventListener("click",() => {
-    nav.style.width = "100vw";
+    nav.style.width = "50vw";
  })
 cancel.addEventListener("click", () => {
      nav.style.width = "0vw";
