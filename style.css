@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    background-color: black;
+    height: 100vh;
+    width: 0vw;
+    position: fixed;
+    z-index: 99;
+    color: white;
+    transition: 1s ease-in-out;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -ms-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+}
+.nav img{
+    position: absolute;
+    top: 10%;
+    left: 90%;
+    transform: translate(-10%,-90%);
+    -webkit-transform: translate(-10%,-90%);
+    -moz-transform: translate(-10%,-90%);
+    -ms-transform: translate(-10%,-90%);
+    -o-transform: translate(-10%,-90%);
+    cursor: pointer;
+}
+.nav ul{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   -webkit-transform: translate(-50%,-50%);
+   -moz-transform: translate(-50%,-50%);
+   -ms-transform: translate(-50%,-50%);
+   -o-transform: translate(-50%,-50%);
+}
+.nav ul li{
+    list-style-type:none;
+    display: block;
+    padding:1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+}
+.nav ul li:hover{
+    color:#FCA650;
+    border-bottom: 1px solid #FCA650;
+}
+nav{
+    background-color: white;
+    /* box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.151); */
+    position: fixed;
+    z-index: 9;
+}
+nav img{
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home{
+    height: 100vh;
+}
+.home-right{
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1529288212986-7b15e0c5ce08?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.home-left{
+   display: initial;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.home-left-text{
+    padding: 5rem;  
+}
+.home-left-text h4{
+    font-weight: bold;
+    color:#707070 ;
+}
+.home-left-text h1{
+    font-weight: bold;
+    text-transform: uppercase;  
+}
+.home-left-text button , .about button , .contact button {
+    background-color: #FCA650;
+    border: 2px solid #FCA650;
+    color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.home-left-text button:hover , .about button:hover , .contact button:hover{
+    background-color: white;
+    border: 2px solid #FCA650;
+    color: #FCA650;   
+}
+.about{
+   text-align: center;
+}
+.about h1{
+    font-weight: bold;
+    overflow: hidden;
+}
+.about_span{
+    font-family: 'Kristi', cursive;
+    font-weight: 400;
+    font-size: 7vw;
+}
+.about p{
+    font-weight: 600;
+}
+.about_btn{
+    display: flex;
+}
+.skills .dash{
+    background-color: black;
+    height: 2px;
+}
+.skills h5{
+    font-weight: bold;
+    
+}
+
+.designing_img , .development_img{
+    overflow: hidden;
+}
+.skills h1{
+    font-weight: bold;
+}
+.skills img{
+    padding: 0.5rem;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.skills img:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.contact .contact_line{
+   
+    font-weight: bold;
+   
+}
+.copy-right{
+    position: relative;
+    background: rgba(0, 0, 0, 0.062);
+}
+.copy-right p{
+    padding: 1rem 0rem 0rem 0rem;
+    font-weight: bold;
+    color: 989898;
+    font-size: 0.7rem;
+  
+}
+.footer_social i{
+        font-size: 2rem;
+        padding: 0.5rem;
+        color: #989898;
+        transition: 0.5s ease-in-out;
+        -webkit-transition: 0.5s ease-in-out;
+        -moz-transition: 0.5s ease-in-out;
+        -ms-transition: 0.5s ease-in-out;
+        -o-transition: 0.5s ease-in-out;
+}
+
+.footer_social i:hover{
+   color: #FCA650;
+   transform: scale(1.1);
+   -webkit-transform: scale(1.1);
+   -moz-transform: scale(1.1);
+   -ms-transform: scale(1.1);
+   -o-transform: scale(1.1);
+}
+
+

@@ -1,0 +1,42 @@
+@import "style.css";
+
+@media only screen and (max-width: 1024px){
+    nav{
+        background-color: white;
+    }
+    .home-right{
+        display: none;
+    }
+    .home-left{
+        height: 100vh;
+        background-image: url("https://images.unsplash.com/photo-1453396450673-3fe83d2db2c4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+    .home-left-text{
+        padding: 1rem;
+        text-align: center;
+}
+    .home-left-text h4{
+        color:#d8d8d8 ;
+    }
+    .home-left-text h1{
+        color: white;
+    }
+    .about_btn{
+        flex-direction: column;
+    }
+    .about button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .about_span{
+        font-size: 24vw;
+    }
+}
+
+
+
