@@ -33,12 +33,12 @@ html,body{
 .nav img{
     position: absolute;
     top: 10%;
-    left: 90%;
-    transform: translate(-10%,-90%);
-    -webkit-transform: translate(-10%,-90%);
-    -moz-transform: translate(-10%,-90%);
-    -ms-transform: translate(-10%,-90%);
-    -o-transform: translate(-10%,-90%);
+    left: 80%;
+    transform: translate(-20%,-90%);
+    -webkit-transform: translate(-20%,-90%);
+    -moz-transform: translate(-20%,-90%);
+    -ms-transform: translate(-20%,-90%);
+    -o-transform: translate(-20%,-90%);
     cursor: pointer;
 }
 .nav ul{
@@ -156,7 +156,7 @@ nav img{
 .designing_img , .development_img{
     overflow: hidden;
 }
-.skills h1{
+.skills h1, #portfolio h1{
     font-weight: bold;
 }
 .skills img{
@@ -212,4 +212,26 @@ nav img{
    -o-transform: scale(1.1);
 }
 
+.portfolio-right{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.portfolio-right img{
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.portfolio-left img:hover{
+  transition: 1s;
+  transform: scale(1.1);
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
 
