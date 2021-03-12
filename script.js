@@ -6,16 +6,17 @@ var nav_outer = document.querySelector('nav');
 
 
 
-// window.addEventListener( "scroll", () => {
-//     if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
-//         alert('vijul');
-//       nav_outer.style.backgroundColor = "white";
+
+window.addEventListener( "scroll", () => {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+        alert('vijul');
+      nav_outer.style.backgroundColor = "white";
       
-//     } else {
-//       nav_outer.style.backgroundColor = "transparent";
+    } else {
+      nav_outer.style.backgroundColor = "transparent";
       
-//     }
-// })
+    }
+})
 
 menu.addEventListener("click",() => {
     nav.style.width = "50vw";
@@ -25,6 +26,9 @@ cancel.addEventListener("click", () => {
  })
 
 
+
+
+ 
 
 
 

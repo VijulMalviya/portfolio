@@ -95,7 +95,8 @@ nav img{
    align-items: center;
 }
 .home-left-text{
-    padding: 5rem;  
+    padding: 5rem; 
+    overflow: hidden; 
 }
 .home-left-text h4{
     font-weight: bold;
