@@ -87,6 +87,7 @@ nav img{
     background-repeat: no-repeat;
     /* background-position: center; */
     background-size: cover;
+    
 }
 .home-left{
    display: initial;
@@ -236,3 +237,12 @@ nav img{
   -o-transform: scale(1.1);
 }
 
+
+.about-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-right img{
+    height: 80vh;
+}
