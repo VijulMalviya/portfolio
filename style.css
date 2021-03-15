@@ -68,7 +68,7 @@ nav{
     background-color: white;
     /* box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.151); */
     position: fixed;
-    z-index: 9;
+    
 }
 nav img{
     cursor: pointer;
@@ -83,9 +83,9 @@ nav img{
 }
 .home-right{
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1529288212986-7b15e0c5ce08?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80");
+    background-image: url("./Images/vij.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
 }
 .home-left{
